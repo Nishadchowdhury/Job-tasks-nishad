@@ -1,0 +1,1 @@
+export const rootServer = 'http://localhost:5000'
