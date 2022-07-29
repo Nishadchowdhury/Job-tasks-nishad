@@ -1,0 +1,40 @@
+.ok::-webkit-scrollbar {
+  display: none;
+}
+
+#volInput {
+  -webkit-appearance: none;
+  border-radius: 30px;
+  height: 10px;
+  overflow: hidden;
+  outline: 1px solid black;
+  cursor: pointer;
+  height: 8px;
+  height: 8px;
+}
+
+#volInput::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  width: 10px;
+  height: 10px;
+  background: red;
+  box-shadow: -407px 0 0 400px red;
+  border-radius: 10px;
+}
+.music_range {
+  -webkit-appearance: none;
+  overflow: hidden;
+  height: 8px;
+  cursor: pointer;
+  border-radius: 50px;
+  outline: 1px solid black;
+}
+
+.music_range::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  width: 10px;
+  height: 10px;
+  background: red;
+  box-shadow: -407px 0 0 400px red;
+  border-radius: 10px;
+}
